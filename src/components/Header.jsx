@@ -1,10 +1,10 @@
 import React from "react";
-import logo form '../assets/l'
+import logo from '../assets/logo.png'
 
 const Header = () => {
   return (
     <div>
-      <div><img src= alt="" /></div>{" "}
+      <div><img src={logo} alt="" /></div>{" "}
     </div>
   );
 };
